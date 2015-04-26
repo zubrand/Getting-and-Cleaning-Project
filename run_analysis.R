@@ -36,8 +36,7 @@ names(subject) <- 'Case.ID'
 
 # Creating one dataset of subject, y and X
 dataset <- data.frame(subject, Activity = y$Activity, X[,selected])
-unique(dataset$Case.ID)
-unique(dataset$Activity)
+
 
 # Creating a second, independent tidy data set with the 
 # average of each variable for each activity and each subject.
